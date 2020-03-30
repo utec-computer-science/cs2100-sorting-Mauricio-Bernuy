@@ -13,8 +13,13 @@ int main() {
 	//selection test
 	vector<int> selection = { 12,11,31,2 };
 	print(selection);
-
 	selectionsort(selection);
+
+	//bubble test
+	vector<int> bubble = { 12,11,31,2 };
+	print(bubble);
+	bubblesort(bubble);
+	
 
 
 	return 0;

@@ -45,5 +45,22 @@ void selectionsort(T& container) {
 		swap(container[x], container[i]);
 	}
 	print(container);
-}
+};
+
+//bubblesort
+template<typename T>
+void bubblesort(T& container) {
+	int i, j, x;
+	int first = 0;
+	int last = size(container);
+	for (i = first; i < last - 1; i++) {
+		for (j = last-1; j > i; j--) {
+			if (container[j - 1] > container[j]) {
+				swap(container[j-1], container[j]);
+			}
+		}
+	}
+	print(container);
+};
+
 #pragma once
