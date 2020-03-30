@@ -91,7 +91,7 @@ void BuildMaxHeap(T& container, int n) {
 	for (int floor = (((n + 1) / 2) - 1); floor != -1; floor--) {
 		heapify(container, floor, n);
 	}
-}
+};
 
 template<typename T>
 void heapsort(T& container) {
@@ -107,8 +107,34 @@ void heapsort(T& container) {
 		}
 	}
 	print(container);
+};
+
+//mergesort
+template<typename T>
+void mergesort(T& container) {
+	int l = 0;
+	int r = size(container) - 1;
+	mergesorting(container, l, r)
+};
+
+template<typename T>
+void mergesorting(T& container, int l, int r) {
+	if (l < r) {
+		int m = l + (r - l) / 2;
+
+		mergesorting(container, l, m);
+		mergesorting(container, m + 1, r);
+		merge(container, l, m, r);
+	}
+};
+
+template<typename T>
+void merge(T&, int l, int m, int r) {
+	int i, j, x;
+	int l1 = m - l + 1;
+	int r2 = r - m;
+	T& L
+
+
 }
-
-
-
 #pragma once

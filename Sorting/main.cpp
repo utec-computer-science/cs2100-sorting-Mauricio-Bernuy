@@ -25,7 +25,5 @@ int main() {
 	print(heap);
 	heapsort(bubble);
 	
-
-
 	return 0;
 }
