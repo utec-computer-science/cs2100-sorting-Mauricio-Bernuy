@@ -1,6 +1,5 @@
 #pragma once
 using namespace std;
-
 template<typename T>
 void print(T& container) {
 	for (int i = 0; i < size(container); i++)
@@ -8,7 +7,7 @@ void print(T& container) {
 	cout << endl;
 };
 
-//insertsort
+
 template<typename T>
 void insertsort(T& container) {
 	int i, j, x;
