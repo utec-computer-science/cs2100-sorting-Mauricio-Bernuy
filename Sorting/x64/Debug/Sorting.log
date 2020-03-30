@@ -21,4 +21,11 @@ C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.c
 C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :             T=std::vector<int,std::allocator<int>>
 C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :         ]
 C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(53,12): warning C4101:  'x': unreferenced local variable
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(98,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :  see reference to function template instantiation 'void heapsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         ]
   Sorting.vcxproj -> C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\x64\Debug\Sorting.exe

@@ -19,6 +19,11 @@ int main() {
 	vector<int> bubble = { 12,11,31,2 };
 	print(bubble);
 	bubblesort(bubble);
+
+	//heap test
+	vector<int> heap = { 12,11,31,2 };
+	print(heap);
+	heapsort(bubble);
 	
 
 
