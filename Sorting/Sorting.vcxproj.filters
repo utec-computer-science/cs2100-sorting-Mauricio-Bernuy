@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="insertsort.h">
+    <ClInclude Include="sorting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

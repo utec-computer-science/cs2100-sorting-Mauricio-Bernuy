@@ -1,9 +1,16 @@
 ﻿  main.cpp
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\insertsort.h(15,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :  see reference to function template instantiation 'void insertsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :         with
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :         [
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :             _Ty=int,
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :             T=std::vector<int,std::allocator<int>>
-C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(12): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(18,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :  see reference to function template instantiation 'void insertsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(37,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :  see reference to function template instantiation 'void selectionsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(17): message :         ]
   Sorting.vcxproj -> C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\x64\Debug\Sorting.exe
