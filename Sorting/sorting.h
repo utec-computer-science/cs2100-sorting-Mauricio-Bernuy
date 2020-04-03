@@ -110,31 +110,55 @@ void heapsort(T& container) {
 };
 
 //mergesort
+
 template<typename T>
-void mergesort(T& container) {
-	int l = 0;
-	int r = size(container) - 1;
-	mergesorting(container, l, r)
-};
+void merge(T& container, int l, int m, int r) {
+	int i, j, x;
+	//int l1 = m - l + 1;
+	//int r2 = r - m;
+	
+
+	if (l > m || m > r)
+		return;
+	auto temp = container;
+	
+	//print(temp);
+	int i1 = l;
+	int i2 = m + 1;
+	for (j = l; j <= r; j++) {
+		if (temp[i1] <= temp[i2]) {
+			container[j] = temp[i1];
+			if (i1 < m) i1++;
+			else temp[i1] = INT_MAX;
+		}
+		else {
+			container[j] = temp[i2];
+			if (i2 < r) i2++;
+			else temp[i2] = INT_MAX;
+		}
+	}
+}
 
 template<typename T>
 void mergesorting(T& container, int l, int r) {
 	if (l < r) {
-		int m = l + (r - l) / 2;
+		int m =(l+r)/ 2;
 
 		mergesorting(container, l, m);
-		mergesorting(container, m + 1, r);
+		mergesorting(container, m+1 , r);
 		merge(container, l, m, r);
 	}
 };
 
 template<typename T>
-void merge(T&, int l, int m, int r) {
-	int i, j, x;
-	int l1 = m - l + 1;
-	int r2 = r - m;
-	T& L
+void mergesort(T& container) {
+	int l = 0;
+	int r = size(container)-1;
+	mergesorting(container, l, r);
+	print(container);
+};
 
 
-}
+
+
 #pragma once

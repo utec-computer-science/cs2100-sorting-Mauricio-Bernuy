@@ -23,7 +23,13 @@ int main() {
 	//heap test
 	vector<int> heap = { 12,11,31,2 };
 	print(heap);
-	heapsort(bubble);
+	heapsort(heap);
+
+	//merge test
+	vector<int> merge = { 12,11,31,2 };
+	print(merge);
+	mergesort(merge);
+	
 	
 	return 0;
 }
