@@ -1,0 +1,56 @@
+﻿  main.cpp
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(18,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :  see reference to function template instantiation 'void insertsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(11): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(37,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :  see reference to function template instantiation 'void selectionsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(16): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(55,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :  see reference to function template instantiation 'void bubblesort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(21): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(53,12): warning C4101:  'x': unreferenced local variable
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(98,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :  see reference to function template instantiation 'void heapsort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(26): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(156,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :  see reference to function template instantiation 'void mergesort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(116,12): warning C4101:  'x': unreferenced local variable
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(149): message :  see reference to function template instantiation 'void merge<T>(T &,int,int,int)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(149): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(149): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(149): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(149): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(157): message :  see reference to function template instantiation 'void mergesorting<T>(T &,int,int)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(157): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(157): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(157): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(157): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :  see reference to function template instantiation 'void mergesort<std::vector<int,std::allocator<_Ty>>>(T &)' being compiled
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         with
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         [
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :             _Ty=int,
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :             T=std::vector<int,std::allocator<int>>
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\main.cpp(31): message :         ]
+C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\sorting.h(116,6): warning C4101:  'i': unreferenced local variable
+  Sorting.vcxproj -> C:\Users\mauri\Documents\GitKraken\cs2100-sorting-Mauricio-Bernuy\Sorting\x64\Debug\Sorting.exe
